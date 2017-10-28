@@ -1,0 +1,18 @@
+
+*{margin:0; padding:0;}
+#box{ width:416px; height:416px; position:relative; background:black; margin-left:10px; overflow:hidden;}
+#box div{ width:16px; height:16px; position:absolute; background:url(images/tankAll.gif) no-repeat 0 -96px;}
+#box #moveBox { width:416px; height:416px; position:relative; background:none;}
+#box .wall{ background-position:0 -96px;}
+#box .slab{ background-position:-16px -96px;}
+#box .flow{ background-position:-32px -96px;}
+
+#box .tank{ width:32px; height:32px; background-position:-256px -32px;}
+#box .copyTank{ width:32px; height:32px; background-position:-256px -32px;}
+
+#box .bullet{ width:6px; height:6px; background-position:-80px -96px;}
+
+#box #imgBox{width:300px; height:200px; position:absolute; left:60px; top:416px; vertical-align:middle;background:none; overflow:hidden;}
+#box #imgBox #startbn{ text-align:center;font-size:18px; color:#FFCC99; font-weight:bold; position:relative; left:130px; top:30px;}
+#box #imgBox #startbn:hover{cursor:pointer;}
+#box #imgBox #helpspan{ text-align:center;font-size:16px; color:#FFCC99; font-weight:bold; position:relative; left:13px; top:45px;}
